@@ -1,16 +1,16 @@
-Bookmarks Ext
+Websteday Ext
 ============
 
 > Save your links for later
 
-Bookmarks Ext is a Chrome extension to save all the sites where you browse. It is part of a global project divided in three parts.
+Websteday Ext is a Chrome extension to save all the sites where you browse. It is part of a global project divided in three parts.
 
 The other parts are available at :
 
-Bookmarks Front - The front end part of the project (not yet available)
+[Websterday](https://github.com/websterday/websterday.git) - The front end part of the project
 
-[Bookmarks WS](https://github.com/skurty/bookmarks-ws) - The REST API to save the linkss and set the destination folder
+[Websterday WS](https://github.com/websterday/websterday-ws.git) - The back end part with a REST API
 
 ## Features
 
-This extension will take each url to save it with the Bookmarks WS. It'll also provide you the way to define the folder where you want to save it.
+This extension will take each url to save it with the Websterday WS. It'll also provide you the way to define the folder where you want to save it.
