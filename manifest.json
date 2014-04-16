@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
 
-    "name": "Bookmarks",
+    "name": "Websterday",
     "description": "Do not forget any information anymore",
     "version": "1.0",
     "background": {
