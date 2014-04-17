@@ -11,6 +11,11 @@ $(document).ready(function() {
 	// Initialize
 	init();
 
+	// Open a link
+	$('a.link').click(function() {
+		chrome.tabs.create({ url: $(this).prop('href') });
+	});
+
 	// Change folder
 	$(document).on('click', '.goFolder', function() {
 		// console.log('change folder');

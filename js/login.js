@@ -7,6 +7,11 @@ $(document).ready(function() {
     $(document).on('click', '#login button', function() {
         authenticate();
     });
+
+    // Open a link
+    $('a.link').click(function() {
+        chrome.tabs.create({ url: $(this).prop('href') });
+    });
 });
 function authenticate() {
     var username = $('#username').val();
